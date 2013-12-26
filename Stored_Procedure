@@ -9,3 +9,21 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+
+create procedure add_firm
+(
+@firmname varchar(50),
+@femail varchar(50),
+@flogo varbinary(100),
+@pword varchar(20),
+@adres varchar(50),
+@ftel varchar(20),
+@departman varchar(50),
+@lang varchar(50)
+)
+as
+set nocount on
+insert into firm(firmname,femail,flogo,pword,adres,ftel,departman,lang)
+values (@firmname,@femail,@flogo,@pword,@adres,@ftel,@departman,@lang)
+set nocount off
+go

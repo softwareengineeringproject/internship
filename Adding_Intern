@@ -11,3 +11,12 @@ create procedure add_intern
 @department varchar(50),
 @itel varchar(20)
 )
+
+as
+set nocount on
+insert into intern(iemail,ilogo,interntopic,languages,
+workex,school,department,itel)
+values (@iemail,@ilogo,@interntopic,@languages,
+@workex,@school,@department,@itel)
+set nocount off
+go

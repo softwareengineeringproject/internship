@@ -1,0 +1,13 @@
+/*intern ekleyen stored procedure*/
+
+create procedure add_intern
+(
+@iemail varchar(20),
+@ilogo varbinary(100),
+@interntopic varchar(50),
+@languages varchar(20),
+@workex varchar(60),
+@school varchar(50),
+@department varchar(50),
+@itel varchar(20)
+)

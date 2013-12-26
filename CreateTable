@@ -1,0 +1,12 @@
+/* firma ve puanlandırma table larının oluşturulması*/
+
+create table firm(tid int primary key, firmname varchar(50), femail varchar(50),flogo varbinary(100),
+pword varchar(20), adres varchar(50), ftel varchar(20), departman varchar(50), lang varchar(50));
+
+create table puan(pid int primary key,  iemail varchar(50), femail varchar(50), puan varchar(20));
+ 
+create table intern(iid int primary key, iemail varchar(50), ilogo varbinary(100), 
+interntopic varchar(50), languages varchar(20), workex varchar(60), 
+school varchar(50), department varchar(50), itel varchar(20)) 
+
+create table blog( bid int primary key, iemail varchar(50), tex varchar(1000))

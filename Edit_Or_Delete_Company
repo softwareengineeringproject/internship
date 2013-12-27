@@ -5,3 +5,4 @@ drop table intern;
 drop table firm;
 drop table puan;
 drop table blog; 
+

@@ -20,3 +20,4 @@ values (@iemail,@ilogo,@interntopic,@languages,
 @workex,@school,@department,@itel)
 set nocount off
 go
+

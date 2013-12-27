@@ -27,3 +27,5 @@ insert into firm(firmname,femail,flogo,pword,adres,ftel,departman,lang)
 values (@firmname,@femail,@flogo,@pword,@adres,@ftel,@departman,@lang)
 set nocount off
 go
+
+
